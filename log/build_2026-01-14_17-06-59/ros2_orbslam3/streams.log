@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ws_visao/stereo-cam/install/stereo_cam:/home/henrique/ws_drone/keyboard-control-ros-sim/install/px4_control:/opt/ros/humble /usr/bin/cmake --build /home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3 -- -j8 -l8
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[0.157s] [ 33%] [32m[1mLinking CXX executable rgbd[0m
+[0.157s] [ 33%] [32m[1mLinking CXX executable mono[0m
+[1.472s] [ 66%] Built target mono
+[1.510s] [100%] Built target rgbd
+[1.518s] Invoked command in '/home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ws_visao/stereo-cam/install/stereo_cam:/home/henrique/ws_drone/keyboard-control-ros-sim/install/px4_control:/opt/ros/humble /usr/bin/cmake --build /home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3 -- -j8 -l8
+[1.525s] Invoking command in '/home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ws_visao/stereo-cam/install/stereo_cam:/home/henrique/ws_drone/keyboard-control-ros-sim/install/px4_control:/opt/ros/humble /usr/bin/cmake --install /home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3
+[1.531s] -- Install configuration: ""
+[1.531s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/libORB_SLAM3.so
+[1.531s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/libDBoW2.so
+[1.531s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/libg2o.so
+[1.531s] -- Installing: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/ros2_orbslam3/mono
+[1.534s] -- Set runtime path of "/home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/ros2_orbslam3/mono" to ""
+[1.535s] -- Installing: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/ros2_orbslam3/rgbd
+[1.538s] -- Set runtime path of "/home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/lib/ros2_orbslam3/rgbd" to ""
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ament_index/resource_index/package_run_dependencies/ros2_orbslam3
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ament_index/resource_index/parent_prefix_path/ros2_orbslam3
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/environment/ament_prefix_path.sh
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/environment/ament_prefix_path.dsv
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/environment/path.sh
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/environment/path.dsv
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/local_setup.bash
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/local_setup.sh
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/local_setup.zsh
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/local_setup.dsv
+[1.538s] -- Installing: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/package.dsv
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ament_index/resource_index/packages/ros2_orbslam3
+[1.538s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/cmake/ros2_orbslam3Config.cmake
+[1.539s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/cmake/ros2_orbslam3Config-version.cmake
+[1.539s] -- Up-to-date: /home/henrique/ws_visao/kinect-orbslam-ws/install/ros2_orbslam3/share/ros2_orbslam3/package.xml
+[1.540s] Invoked command in '/home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/henrique/ws_visao/stereo-cam/install/stereo_cam:/home/henrique/ws_drone/keyboard-control-ros-sim/install/px4_control:/opt/ros/humble /usr/bin/cmake --install /home/henrique/ws_visao/kinect-orbslam-ws/build/ros2_orbslam3

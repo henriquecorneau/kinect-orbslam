@@ -1,0 +1,66 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+System.SaveAtlasToFile: "atlas_insa_00"
+
+#System.LoadAtlasFromFile: "atlas_insa_00"
+
+File.version: "1.0"
+
+Camera.type: "PinHole"
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera1.fx: 671.977749
+Camera1.fy: 670.805178
+Camera1.cx: 314.374078
+Camera1.cy: 241.357030
+
+Camera1.k1: -0.026368
+Camera1.k2: 0.073040
+Camera1.p1: -0.001564
+Camera1.p2: 0.000295
+Camera1.k3: 0.031707
+
+# Camera frames per second (Valor padrao mantido, pois nao estava em camera_calibration.yaml)
+Camera.fps: 30
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale. Valor padrao mantido)
+Camera.RGB: 1
+
+# Camera resolution
+Camera.width: 640
+Camera.height: 480
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters (Secao mantida, com valores padrao de TUM1.yaml)
+#--------------------------------------------------------------------------------------------
+
+# ORB Extractor: Number of features per image
+ORBextractor.nFeatures: 1000
+
+# ORB Extractor: Scale factor between levels in the scale pyramid 	
+ORBextractor.scaleFactor: 1.2
+
+# ORB Extractor: Number of levels in the scale pyramid	
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters (Secao mantida, com valores padrao de TUM1.yaml)
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0

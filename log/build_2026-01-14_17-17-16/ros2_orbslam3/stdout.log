@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[ 66%] Built target mono
+[ 66%] Built target rgbd
+[ 77%] [32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o[0m
